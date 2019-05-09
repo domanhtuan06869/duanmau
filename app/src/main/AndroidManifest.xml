@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.admin.duanmau">
-
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -14,26 +13,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.tuan.duanmau.test"></activity>
+        <activity android:name="com.tuan.duanmau.lv_hdct" />
+        <activity android:name="com.tuan.duanmau.fixUser" />
+        <activity android:name="com.tuan.duanmau.fix_theloai" />
+        <activity android:name="com.tuan.duanmau.fix_sach" />
+        <activity android:name="com.tuan.duanmau.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DangNhap.DangNhapActivity" />
-        <activity android:name=".ManHinhChinhActivity" />
+        <activity android:name="com.tuan.duanmau.DangNhap.DangNhapActivity" />
+        <activity android:name="com.tuan.duanmau.ManHinhChinhActivity" />
         <activity
-            android:name=".NguoiDungActivity.NguoiDungActivity"
+            android:name="com.tuan.duanmau.NguoiDungActivity.NguoiDungActivity"
             android:label="@string/title_activity_nguoi_dung" />
-        <activity android:name=".TheLoaiSach.TheLoaiSachActivity" />
-        <activity android:name=".Sach.SachActivity" />
-        <activity android:name=".HoaDon.HoaDonActivity" />
-        <activity android:name=".BanChay.BanChayActivity" />
-        <activity android:name=".ThongKeActivity" />
-        <activity android:name=".TheLoaiSach.DanhSachTheLoaiActivity" />
-        <activity android:name=".Sach.DanhSachSachActivity" />
-        <activity android:name=".HoaDon.DanhSachHoaDonActivity"></activity>
+        <activity android:name="com.tuan.duanmau.TheLoaiSach.TheLoaiSachActivity" />
+        <activity android:name="com.tuan.duanmau.Sach.SachActivity" />
+        <activity android:name="com.tuan.duanmau.HoaDon.HoaDonActivity" />
+        <activity android:name="com.tuan.duanmau.BanChay.BanChayActivity" />
+        <activity android:name="com.tuan.duanmau.ThongKeActivity" />
+        <activity android:name="com.tuan.duanmau.TheLoaiSach.DanhSachTheLoaiActivity" />
+        <activity android:name="com.tuan.duanmau.Sach.DanhSachSachActivity" />
+        <activity android:name="com.tuan.duanmau.HoaDon.HoaDonChiTietActivity" />
     </application>
 
 </manifest>

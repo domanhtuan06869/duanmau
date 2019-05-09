@@ -12,18 +12,14 @@
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Thêm người dùng" />
-        <item
-            android:id="@+id/navChinhSuaNguoiDung"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Thêm người dùng" />
     </group>
 
     <item android:title="Chức năng">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_suathongtin"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Giới thiệu" />
+                android:title="Sửa Thông tin User" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"

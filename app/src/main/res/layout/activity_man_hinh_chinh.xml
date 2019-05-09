@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ManHinhChinhActivity"
+    tools:context="com.tuan.duanmau.ManHinhChinhActivity"
     android:orientation="vertical"
     android:background="#fff">
 
@@ -74,7 +74,7 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/img_sach"
+                android:src="@drawable/imgsach"
                 android:layout_gravity="center"/>
             <TextView
                 android:layout_width="wrap_content"

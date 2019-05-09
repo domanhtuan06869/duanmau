@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TheLoaiSach.TheLoaiSachActivity"
+    tools:context="com.tuan.duanmau.TheLoaiSach.TheLoaiSachActivity"
     android:background="#fff">
 
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="103dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginLeft="67dp"
-        android:layout_marginRight="67dp"
+        android:layout_width="381dp"
+        android:layout_height="93dp"
         android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/img_logo"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:src="@drawable/logobook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -91,8 +91,8 @@
         android:id="@+id/btnThemTheLoai"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="88dp"
-        android:layout_marginStart="88dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
         android:layout_marginTop="16dp"
         android:text="Thêm"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,11 +102,15 @@
         android:id="@+id/btnHuyBoTheLoai"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="88dp"
         android:layout_marginRight="88dp"
-        android:layout_marginTop="16dp"
         android:text="Hủy bỏ"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnThemTheLoai"
         app:layout_constraintTop_toBottomOf="@+id/edtMoTaTheLoai" />
 
     <Button
